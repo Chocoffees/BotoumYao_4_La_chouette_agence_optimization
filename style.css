@@ -455,7 +455,6 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: large;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -777,7 +776,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(147, 135, 95, 0.55);
   padding: 40px 40px 40px 40px;
 }
 
