@@ -851,7 +851,19 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation-compressed.jpg");
+}
+
+.title-presentation {
+  color: #ffd152 !important;
+}
+
+.text-presentation {
+  text-align: start;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
