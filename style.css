@@ -456,6 +456,7 @@ nav .caret {
   margin-top: 10px;
   margin-bottom: 20px;
   font-weight: bold;
+  font-size: larger;
   text-transform: uppercase;
 }
 
@@ -601,10 +602,11 @@ a[data-lightbox]:hover img {
   padding: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 15px;
-  right: 15px;
-  bottom: 5px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .close-lightbox {
