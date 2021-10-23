@@ -1,3 +1,10 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,7 +52,7 @@ a:hover {
 }
 
 .bloc-lg {
-  padding: 100px 50px;
+  padding: 40px 50px 30px 50px;
 }
 
 .bloc-md {
@@ -296,6 +303,11 @@ a:hover {
   min-width: 300px;
   margin-top: 50px;
 }
+@media (min-width: 300px) and (max-width: 768px) {
+  #bloc-1-hero h1 {
+    font-size: 2.2em;
+  }
+}
 
 .navbar {
   margin-bottom: 0;
@@ -313,6 +325,11 @@ a:hover {
   font-weight: bolder;
   line-height: 44px;
   font-family: Kingthings Petrock Light;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.7em;
+  }
 }
 
 .navbar-brand img {
@@ -452,11 +469,16 @@ nav .caret {
   float: right;
 }
 
+figcaption {
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: larger;
+  font-size: large;
   text-transform: uppercase;
 }
 
@@ -679,6 +701,7 @@ a {
 
 .container {
   max-width: 1000px;
+  margin: auto;
 }
 
 .hero-bloc-text {
@@ -704,6 +727,11 @@ p {
   max-width: 500px;
   margin: 5px auto 30px auto;
 }
+@media (min-width: 300px) and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
 
 .tight-width-whitespace {
   max-width: 600px;
@@ -716,7 +744,7 @@ p {
 }
 
 .cta-hero {
-  margin-top: 60px;
+  margin-top: 30px;
   color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
@@ -772,6 +800,14 @@ h4 {
   margin-bottom: 44px;
   margin-top: 50px;
 }
+@media (min-width: 300px) and (max-width: 768px) {
+  .col-sm-6 a img {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+}
 
 .avatar {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -814,6 +850,11 @@ h4 {
     #a93a43 100%
   );
   color: #ffffff !important;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .btn-atomic-tangerine {
+    font-size: small;
+  }
 }
 
 .btn-atomic-tangerine:hover {
@@ -863,7 +904,12 @@ h4 {
 }
 
 .text-presentation {
-  text-align: start;
+  text-align: justify;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .text-presentation {
+    text-align: center;
+  }
 }
 
 .underline {
@@ -872,6 +918,11 @@ h4 {
 
 .title-portfolio {
   color: #f3976c !important;
+}
+
+.text-banner {
+  font-size: 2em;
+  text-transform: none;
 }
 
 @media (max-width: 1024px) {
@@ -1088,4 +1139,8 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+.mentions {
+  padding-top: 20px;
 }
