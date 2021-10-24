@@ -862,6 +862,12 @@ h4 {
   color: #ffffff !important;
 }
 
+.btn-form {
+  width: 50%;
+  border-radius: 6px;
+  box-shadow: #5e4f4f 2px 5px 6px 2px;
+}
+
 .ltc-white {
   color: #ffffff !important;
 }
@@ -916,8 +922,22 @@ h4 {
   text-decoration: underline;
 }
 
-.title-portfolio {
+.title-portfolio,
+.title-form,
+.contact {
   color: #f3976c !important;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .contact {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .title-form {
+    margin-top: 0;
+  }
 }
 
 .text-banner {
@@ -1142,6 +1162,23 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+}
+@media (min-width: 300px) {
+  .contact .mail-icon {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+  }
+}
+
+.contact iframe {
+  border: 2px solid #c27956;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .contact iframe {
+    width: 90%;
+    height: 200px;
   }
 }
 
