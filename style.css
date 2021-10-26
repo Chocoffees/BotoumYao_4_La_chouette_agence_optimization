@@ -1181,7 +1181,30 @@ h4 {
     height: 200px;
   }
 }
+@media (min-width: 768px) and (max-width: 899px) {
+  .contact iframe {
+    width: 320px;
+    height: 350px;
+  }
+}
+@media (min-width: 900px) {
+  .contact iframe {
+    width: 450px;
+    height: 350px;
+    padding-right: 0;
+  }
+}
+
+.footer-contact {
+  width: 100%;
+  margin-top: 95px;
+}
 
 .mentions {
   padding-top: 20px;
+}
+
+form {
+  padding-left: 15px;
+  padding-right: 15px;
 }
