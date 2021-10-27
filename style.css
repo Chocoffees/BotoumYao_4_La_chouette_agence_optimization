@@ -701,6 +701,10 @@ a {
   color: #575757 !important;
 }
 
+.label-title {
+  font-weight: bold;
+}
+
 .container {
   max-width: 1000px;
   margin: auto;
@@ -1204,6 +1208,11 @@ h4 {
 .footer-contact {
   width: 100%;
   margin-top: 95px;
+}
+
+.footer-text {
+  color: #ffffff !important;
+  font-weight: bold;
 }
 
 .mentions {
